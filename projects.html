@@ -60,18 +60,28 @@
         <h1 class="section-title">My Projects</h1>
         <p>A showcase of my work</p>
       </div>
+
+      <!-- Category Filters -->
+      <div class="category-filters text-center" style="margin-bottom: 2rem;">
+        <button class="category-btn active" data-category="all">All</button>
+        <button class="category-btn" data-category="web">Web Development</button>
+        <button class="category-btn" data-category="data">Data Analytics</button>
+        <button class="category-btn" data-category="ai">Artificial Intelligence</button>
+      </div>
       
       <div class="projects-grid">
+
         
-        <!-- Project 2 -->
-        <div class="project-card reveal">
+        <!-- Project 1: Website -->
+        <div class="project-card reveal" data-category="web">
           <img src="/images/Screenshot (2).png" 
-               alt="Computer Vision Project" 
+               alt="Spazza Shop Website" 
                class="project-image">
           <div class="project-content">
             <div class="project-category" style="background-color: #E0F2FE; color: #0284C7;">
               Web Development
             </div>
+
             <h3>Website</h3>
             <p>
             This website lets users order from a local spazza shop, offering a 
@@ -89,14 +99,16 @@
 
           <!-- Project 3 -->
 
-         <div class="project-card reveal">
+        <!-- Project 2: Digital Register -->
+        <div class="project-card reveal" data-category="web">
           <img src="/images/Register.jpeg" 
-               alt="Computer Vision Project" 
+               alt="Digital Register Attendance" 
                class="project-image">
           <div class="project-content">
             <div class="project-category" style="background-color: #E0F2FE; color: #0284C7;">
               Web Development
             </div>
+
             <h3>Digital Register</h3>
             <p>A responsive digital attendance system built for the CAPACITI program. 
               It allows candidates to sign, track attendance, and manage profiles in real-time. 
@@ -113,15 +125,16 @@
           </div>
         </div>
         
-        <!-- Project 4-->
-        <div class="project-card reveal">
+        <!-- Project 3: ML Quiz Game -->
+        <div class="project-card reveal" data-category="ai">
   <img src="/images/game.jpg" 
        alt="Machine Learning Quiz Game" 
        class="project-image">
   <div class="project-content">
     <div class="project-category" style="background-color: #DBEAFE; color: #1D4ED8;">
-      Machine Learning
+      Artificial Intelligence
     </div>
+
     <h3>ML Quiz Game</h3>
     <p>An interactive, web-based quiz game that tests your knowledge of machine learning concepts. 
        Features responsive design, instant feedback, and covers core AI topics to support foundational learning.
@@ -133,11 +146,32 @@
       <span class="project-tag">AI Fundamentals</span>
     </div>
   </div>
-</div>
+          <!-- Project 4: Data Analytics Dashboard (Placeholder) -->
+          <div class="project-card reveal" data-category="data">
+            <img src="/images/CHPC.jpg" 
+                 alt="Data Analytics Dashboard" 
+                 class="project-image">
+            <div class="project-content">
+              <div class="project-category" style="background-color: #F0F9FF; color: #0369A1;">
+                Data Analytics
+              </div>
+              <h3>Sales Analytics Dashboard</h3>
+              <p>Interactive dashboard visualizing retail sales data with trend analysis, customer segmentation, and KPI tracking using Python and Power BI.</p>
+              <a href="#" target="_blank">View Dashboard</a>
+              <div class="project-tags">
+                <span class="project-tag">Python</span>
+                <span class="project-tag">Power BI</span>
+                <span class="project-tag">Pandas</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </div>
   </section>
+
 
   <!-- Footer -->
   <footer>

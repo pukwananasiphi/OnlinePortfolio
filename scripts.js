@@ -106,6 +106,31 @@ async function chatbotReply(userInput) {
 
 
 
+  // Project Category Filtering
+  const categoryBtns = document.querySelectorAll('.category-btn');
+  const projectCards = document.querySelectorAll('.project-card[data-category]');
+
+  categoryBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      // Update active button
+      categoryBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const filterCategory = btn.dataset.category;
+
+      // Filter projects
+      projectCards.forEach(card => {
+        const cardCategory = card.dataset.category;
+        
+        if (filterCategory === 'all' || cardCategory === filterCategory) {
+          card.classList.remove('filtered-out');
+        } else {
+          card.classList.add('filtered-out');
+        }
+      });
+    });
+  });
+
   // Active Nav Link
   const currentLocation = window.location.pathname;
   const navLinks = document.querySelectorAll('.nav-menu a');
@@ -121,3 +146,4 @@ async function chatbotReply(userInput) {
   });
   
 });
+
