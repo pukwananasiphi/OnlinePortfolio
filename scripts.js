@@ -110,26 +110,32 @@ async function chatbotReply(userInput) {
   const categoryBtns = document.querySelectorAll('.category-btn');
   const projectCards = document.querySelectorAll('.project-card[data-category]');
 
+  // Default to first category active
+  if (categoryBtns.length > 0) {
+    categoryBtns[0].classList.add('active');
+    filterProjects(categoryBtns[0].dataset.category);
+  }
+
   categoryBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       // Update active button
       categoryBtns.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      const filterCategory = btn.dataset.category;
-
-      // Filter projects
-      projectCards.forEach(card => {
-        const cardCategory = card.dataset.category;
-        
-        if (filterCategory === 'all' || cardCategory === filterCategory) {
-          card.classList.remove('filtered-out');
-        } else {
-          card.classList.add('filtered-out');
-        }
-      });
+      filterProjects(btn.dataset.category);
     });
   });
+
+  function filterProjects(category) {
+    projectCards.forEach(card => {
+      const cardCategory = card.dataset.category;
+      if (cardCategory === category) {
+        card.classList.remove('filtered-out');
+      } else {
+        card.classList.add('filtered-out');
+      }
+    });
+  }
 
   // Active Nav Link
   const currentLocation = window.location.pathname;
