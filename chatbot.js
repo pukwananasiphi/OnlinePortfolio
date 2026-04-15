@@ -28,6 +28,153 @@
     return "From what I know, Nasiphi is passionate, dedicated, and deeply curious. Her work shows her heart in every detail 💫";
   }
 
+  // Web Development Focus
+if (msg.includes("web") || msg.includes("frontend") || msg.includes("backend")) {
+  return "Nasiphi is passionate about web development, building responsive, user-friendly applications using modern tools like JavaScript, Flask, and Supabase 🌐✨";
+}
+
+if (msg.includes("frontend")) {
+  return "She enjoys crafting clean and interactive user interfaces using HTML, CSS, TailwindCSS, and JavaScript 🎨";
+}
+
+if (msg.includes("backend") || msg.includes("api")) {
+  return "On the backend, she builds scalable systems using Flask and integrates APIs to create dynamic applications ⚙️";
+}
+
+// Data Analytics Focus
+if (msg.includes("data") || msg.includes("analytics")) {
+  return "Nasiphi is growing her data analytics skills — working with datasets, dashboards, and insights to support decision-making 📊";
+}
+
+if (msg.includes("excel") || msg.includes("spreadsheet")) {
+  return "She uses Excel for data cleaning, analysis, and reporting — including formulas, dashboards, and automation 📈";
+}
+
+if (msg.includes("power bi") || msg.includes("dashboard")) {
+  return "She’s exploring Power BI to build interactive dashboards that turn raw data into meaningful insights 📊✨";
+}
+
+if (msg.includes("sql") || msg.includes("database")) {
+  return "She works with databases like Supabase, learning how to structure, query, and manage data effectively 🗄️";
+}
+
+// AI & Automation
+if (msg.includes("automation")) {
+  return "Automation is one of her strengths — she uses tools like Power Automate to streamline workflows and reduce manual effort ⚡";
+}
+
+if (msg.includes("ai project") || msg.includes("machine learning")) {
+  return "She’s building AI-driven projects, exploring concepts like sentiment analysis and generative models 🤖";
+}
+
+if (msg.includes("chatbot")) {
+  return "She builds intelligent chatbots that combine logic, personality, and user-focused design — just like this one 💬✨";
+}
+
+if (msg.includes("generative ai")) {
+  return "She’s actively learning Generative AI, experimenting with models and real-world applications 🚀";
+}
+
+// Problem Solving & Thinking
+if (msg.includes("problem") || msg.includes("solve")) {
+  return "She approaches problems with a solution-driven mindset — breaking them down and building step-by-step fixes 🧠";
+}
+
+if (msg.includes("logic") || msg.includes("thinking")) {
+  return "Her logical thinking is one of her strongest assets — especially when designing systems and debugging code 💡";
+}
+
+// Work Ethic
+if (msg.includes("work ethic") || msg.includes("discipline")) {
+  return "She’s consistent, disciplined, and committed to growth — always showing up and improving daily 💪";
+}
+
+if (msg.includes("learn") || msg.includes("learning")) {
+  return "She’s a fast learner who adapts quickly to new tools, technologies, and environments 📚";
+}
+
+// Collaboration & Teamwork
+if (msg.includes("team") || msg.includes("collaborate")) {
+  return "She thrives in team environments — communicating clearly and contributing meaningfully to shared goals 🤝";
+}
+
+if (msg.includes("communication")) {
+  return "Her communication skills help bridge technical and non-technical gaps effectively 🗣️";
+}
+
+// Career Positioning
+if (msg.includes("hire") || msg.includes("why hire")) {
+  return "Nasiphi brings a mix of technical skill, adaptability, and passion for impact — making her a valuable addition to any forward-thinking team 💼";
+}
+
+if (msg.includes("intern") || msg.includes("experience")) {
+  return "She is gaining hands-on experience through internships and programs, applying her skills to real-world challenges 🚀";
+}
+
+if (msg.includes("portfolio")) {
+  return "Her portfolio showcases real-world projects focused on AI, automation, and web development — built with purpose and precision 💻";
+}
+
+// Growth & Development
+if (msg.includes("growth") || msg.includes("improve")) {
+  return "She is constantly improving her skills — especially in AI, data analytics, and full-stack development 📈";
+}
+
+if (msg.includes("future skills")) {
+  return "She’s focusing on future-ready skills like AI engineering, data analytics, and scalable system design 🔮";
+}
+
+// Tools & Technologies
+if (msg.includes("tools") || msg.includes("technologies")) {
+  return "She works with tools like Python, JavaScript, Flask, Supabase, Power BI, and Power Automate 🛠️";
+}
+
+if (msg.includes("python")) {
+  return "Python is one of her core languages — used for automation, AI, and backend development 🐍";
+}
+
+if (msg.includes("javascript")) {
+  return "JavaScript helps her bring web applications to life with dynamic and interactive features ⚡";
+}
+
+// Real-world Impact
+if (msg.includes("impact")) {
+  return "She’s passionate about building solutions that create real impact — especially in education and mental health 💙";
+}
+
+if (msg.includes("real world")) {
+  return "Her projects are designed with real-world use in mind — solving practical problems with smart tech 💡";
+}
+
+// Leadership Potential
+if (msg.includes("leader") || msg.includes("leadership")) {
+  return "She is developing leadership skills by taking initiative, mentoring peers, and driving projects forward 🌟";
+}
+
+// Adaptability
+if (msg.includes("adapt") || msg.includes("flexible")) {
+  return "She adapts quickly to new challenges and technologies — a key strength in fast-changing tech environments 🔄";
+}
+
+// Confidence & Growth Mindset
+if (msg.includes("confidence")) {
+  return "She’s building confidence through consistent learning, practice, and real-world application 💫";
+}
+
+if (msg.includes("mindset")) {
+  return "Her growth mindset pushes her to keep learning, experimenting, and evolving every day 🌱";
+}
+
+// Availability
+if (msg.includes("available") || msg.includes("opportunity")) {
+  return "She is open to opportunities in AI, data analytics, and web development — ready to contribute and grow 🚀";
+}
+
+// Default career-focused fallback
+if (msg.includes("career") || msg.includes("work")) {
+  return "Nasiphi is building a strong career at the intersection of AI, data analytics, and web development — focused on impact and innovation 💼✨";
+}
+
   if (msg.includes("who is nasiphi") || msg.includes("nasiphi pukwana")) {
   return "Nasiphi Pukwana is a passionate, driven tech talent from South Africa with a love for AI, automation, and uplifting others. 💙";
  }   
