@@ -1,0 +1,83 @@
+<section class="about">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title">Professional Summary</h2>
+      </div>
+      
+      <div class="about-content">
+        <div class="about-image reveal-left">
+          <div class="slideshow">
+            <div class="slide">
+              <img src="/images/Samsung.jpeg" 
+                   alt="Nasiphi Pukwana" style="width: 100%; border-radius: 8px;">
+            </div>
+            <div class="slide">
+              <img src="/images/Tutoring.jpeg" 
+                   alt="Nasiphi Pukwana" style="width: 100%; border-radius: 8px;">
+            </div>
+            <div class="slide">
+              <img src="images/CHPC.jpg" 
+                   alt="Nasiphi Pukwana" style="width: 100%; border-radius: 8px;">
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-text reveal-right">
+
+          <p>AI professional with a National Diploma in ICT (Application Development, cum laude) and a strong foundation in Python and AI, sparked during my time at the <a href="https://csr.samsung.com/en/programViewSic.do">Samsung Innovation Campus</a>. Passionate about ethical AI development and building intelligent digital solutions to solve real-world challenges.</p>
+
+<p>Skilled in Java, Python, SQL, Supabase, Apex Oracle, HTML, CSS, and JavaScript, I develop applications integrating AI functionality, database management, and cloud computing. Participation in hackathons, competitions, and tutoring has strengthened my problem-solving, adaptability, and leadership skills, allowing me to thrive in both collaborative and independent environments.</p>
+
+<p>Driven to bridge technology with human well-being, I aim to create AI solutions that advance industries such as healthcare, education, and community development, contributing to a more inclusive and intelligent digital future.</p>
+
+</section>
+
+
+          
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Approach Section -->
+  <section class="approach">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-title">My Approach</h2>
+        <p>My approach to AI development focuses on these key principles</p>
+      </div>
+      
+      <div class="approach-grid">
+        <div class="approach-card reveal">
+          <div class="approach-card-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Innovation First</h3>
+          <p>
+            I believe in pushing boundaries and exploring new possibilities in AI technology, always seeking innovative solutions to complex problems.
+          </p>
+        </div>
+        
+        <div class="approach-card reveal">
+          <div class="approach-card-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>User-Centered</h3>
+          <p>
+            All of my AI solutions are designed with the user experience in mind, ensuring that technology serves human needs effectively.
+          </p>
+        </div>
+        
+        <div class="approach-card reveal">
+          <div class="approach-card-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Ethical AI</h3>
+          <p>
+            I am committed to developing AI systems that are fair, transparent, and respectful of privacy and human autonomy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
